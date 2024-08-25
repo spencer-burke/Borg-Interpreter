@@ -1,0 +1,27 @@
+COM VALID BORG COMMENT
+COM ANOTHER COMMENT
+
+COM THIS COM IS A NEWLINE AWAY
+
+START
+    VAR ABC = 25
+    VAR DEF = 13
+    VAR GHI = 17
+    VAR JKL = 10
+    START
+        VAR ABC = 12
+        PRINT GHI
+        PRINT 2 * GHI
+        PRINT ABC / JKL
+        PRINT MNO
+        VAR MNO = 15
+        VAR QRS = 2
+        VAR TUV = 15.5
+        MNO++
+        PRINT MNO
+        MNO--
+        PRINT MNO
+        DEF = 26
+        PRINT DEF
+    FINISH
+FINISH
